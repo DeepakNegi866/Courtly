@@ -1,0 +1,14 @@
+.sesssionexpiredSection{
+    max-width: 700px;
+}
+
+.sessionExpireheading{
+    text-align: center;
+    font-size: 30px;
+}
+
+.sessionexpirePara{
+    text-align: center;
+    font-size: 22px;
+    font-weight: 500;
+}

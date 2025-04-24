@@ -1,0 +1,444 @@
+
+/* homePage style */
+.homeGraidentHeadingLine{
+  height: 3px;
+  flex: 1;
+  background: linear-gradient(to left, #7755ff00,#1d0093);
+}
+.homeHeading {
+  font-family: Open sans;
+  font-size: 43px;
+  font-weight: 700;
+  color: #1d0093;
+  line-height: 70px;
+}
+.homePara {
+  font-family: "Inter";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  text-align: left;
+  color: #898989;
+}
+.homeFeatures {
+  background-color: #fcfbff;
+}
+.homeGraidentHeadingWrapper {
+  display: flex;
+  align-items: center;
+  padding-top: 45px;
+  width:70%;
+  margin: auto;
+}
+.homeGraidentHeadingPrevLine {
+  height: 3px;
+  flex: 1;
+  background: linear-gradient(to right, #7755ff00, #1d0093);
+}
+.homeGraidentHeadingNextLine {
+  height: 3px;
+  flex: 1;
+  background: linear-gradient(to left, #7755ff00, #1d0093);
+}
+.homePadding {
+  padding-bottom: 60px;
+}
+.homeGraidentHeading {
+  font-family: Open Sans;
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 75px;
+  text-align: center;
+  color: #1d0093;
+  padding: 0px 15px;
+}
+.homeParagraph {
+  font-family: "Inter";
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22.5px;
+  text-align: center;
+  color: #898989;
+}
+.homeFeatures {
+  background-color: #fcfbff;
+}
+.homeShortTime {
+  font-family: Open Sans;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 45px;
+  color: #1d0093;
+}
+.homeShortTimePara {
+  font-family: "Inter";
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22.5px;
+  color: #898989;  
+}
+.homeShort {
+  padding: 90px;
+}
+.homeMultiCarusel {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.homePhoto {
+  border: 1px solid #fcfbff;
+  flex: 1;
+  padding: 25px 65px;
+  box-shadow: 0px 0px 8px 0px #0000000d;
+  border-radius: 20px;
+}
+.homePhoto:hover {
+  background-color: #fcfbff;
+}
+.homePhoto:hover img {
+  mix-blend-mode: unset;
+}
+.homePhoto img {
+  aspect-ratio: 3/2;
+  object-fit: contain;
+  mix-blend-mode: luminosity;
+}
+/* Section-5 */
+.homeGrowFaster {
+  font-family: Open Sans;
+  font-size: 43px;
+  font-weight: 700;
+  line-height: 75px;
+  color: #1d0093;
+  padding-top: 120px;
+}
+.homeShortList {
+  display: flex;
+  gap: 10px;
+}
+.homeShortArrow {
+  padding: 15px 0px;
+}
+
+/* Testimonials */
+
+.homeTestimonials {
+  font-family: Open Sans;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 45px;
+  text-align: center;
+  color: #1d0093;
+}
+.homePageCard {
+  border: 2px solid #fff;
+  box-shadow: 1px 1px 15px #ccc;
+  border-radius: 40px;
+}
+.homePageHead {
+  padding: 35px 0px 0px 35px;
+}
+
+.homeCarouselPara {
+  font-family: "Inter";
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22.5px;
+  padding: 10px 0px 0px 23px;
+  color: #898989;
+}
+.homeCarouselHeading {
+  font-family: Open Sans;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 45px;
+  padding: 10px 10px 0px 23px;
+  color: #1d0093;
+}
+.carouselButton {
+  border: 1px solid #fdd106;
+  background-color: #fdd106;
+  margin-right: 6px;
+  padding:4px;
+  width:3%;
+}
+.carouselButton:focus{
+  background-color:#ffffff;
+}
+.homeTryDigicase{
+  display: flex;
+  align-items: center;
+  padding-top: 55px ; 
+}
+.homePageWrapperDigicase{
+  display: flex;
+  align-items: center;
+  padding-top: 55px ;
+  width: 88%;
+}
+.testimonialCarouselWrapper :global(.slick-slider .slick-list){
+    padding-top: 60px!important;
+    padding-bottom: 60px!important;
+}
+.testimonialCarouselWrapper :global(.slick-initialized .slick-slide){
+    padding:10px ;
+}
+.homeStar{
+    color:#FFD15B;
+}
+/* HR tag */
+.homeHr{
+  width: 87%;
+  margin: 0 auto;
+}
+.homePageCard{
+  padding: 20px 0px;
+}
+.ratingWrapper{
+  display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3px 24px 0px 24px;
+}
+.homeJohndoe{
+  font-family: "Inter";
+font-size: 15px;
+font-weight: 400;
+line-height: 22.5px;
+color:#898989;
+margin: 0;
+}
+.testimonialCarouselWrapper :global(.slick-slide .slick-arrow .slick-prev .slick-next){
+    border: none;
+    line-height: 0;
+    display: block;
+    position: relative;
+    width: 49px !important;
+    height: 34px !important;
+    padding: 4px !important;    
+    cursor: pointer;
+    color: transparent;    
+    background: yellow;
+}
+/* last section */
+
+.homeTryParagraph{
+  font-family: "Inter";
+font-size: 15px;
+font-weight: 400;
+line-height: 22.5px;
+color:#898989;
+padding: 30px 0px 40px 26px;
+
+}
+
+.homeSearch{
+  width: 70%;
+  padding: 30px 0px;
+}
+
+.homeInput{
+  border-radius: 20px !important;
+  border:1px solid #7755FF;
+  height: 38px;
+  padding: 0px 20px;
+}
+
+
+.homeButton{
+  position: absolute!important;
+  right: 1px;
+  border-radius: 20px!important;
+  font-family: "Inter";
+  font-size: 14px;
+  font-weight: 400 ;
+  line-height: 24px ;
+  margin-top: 1px;
+}
+.homeButton:hover{
+  background-color: #1d0093;
+  color:#ffffff;
+}
+
+/* ******Footer****** */
+.homeFooter{
+    background-color: #7755FF;
+}
+.homeFooterHeading{
+  font-family: "Wheaton";
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 60px;
+  color:#FFFFFF;
+}
+.homePageFooter{
+  font-family: "Open Sans";
+font-size: 30px;
+font-weight: 700;
+line-height: 45px;
+color:#ffffff;
+}
+.homePageLi{
+  list-style-type: none;
+  padding: 7px;
+}
+.homeFeatWrapper{
+  font-family: "Inter";
+font-size: 15px;
+font-weight: 400;
+line-height: 24px;
+color:#ffffff;
+text-decoration: none;
+
+}
+.homePageFeatWrapper{
+font-family: "Inter";
+font-size: 15px;
+font-weight: 400;
+line-height: 24px;
+color:#ffffff;
+text-decoration: none;
+margin-Left:10px;
+}
+.homePageFeatures{
+  font-family: "Inter";
+  font-size: 12px;
+  font-weight: 400;
+color:#ffffff;
+text-decoration: none;
+}
+.homeWrapperIcon{
+  display:flex;
+   margin-Bottom:10px; 
+   color:#ffffff;
+}
+.homePhoneWrapperIcon{
+  margin-Bottom:10px; 
+   color:#ffffff;
+}
+.homePageNumWrapper{
+  display: block;
+  font-family: "Inter";
+font-size: 15px;
+font-weight: 400;
+line-height: 24px;
+color:#ffffff;
+text-decoration: none;
+margin-left: 36px;
+}
+.homeGraidentHeadingNext{
+  height: 3px;
+  flex: 1;
+  background: linear-gradient(to left, #7755ff00, #ffffff);
+  margin-left: 15px;
+}
+.homePageWrapperDigicase{
+  display: flex;
+  align-items: center;
+  padding: 44px 0px ;
+  width: 88%;
+}
+.homePageWrapperCopyright{
+    display: flex;
+    gap: 20px;
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 400;
+    color: #ffffff;
+    text-align:right;
+}
+.homePageWrapperCopyleft{
+    display: flex;
+    gap: 20px;
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 400;
+    color: #ffffff;
+    text-align: left;
+}
+.homePageWrapperCopycenter{
+  display: flex;
+    gap: 20px;
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 400;
+    color: #ffffff;
+    text-align: center;
+}
+
+.homePageButton{
+  background-color: #FDD106;
+  min-height: 36px;
+  min-width: 120px;
+  border: none;
+  color: #1D0093; 
+  border-radius: 20px;
+  align-items: center;
+}
+.homePageButton:hover{
+  background-color: #1d0093;
+  color:#ffffff;
+}
+.homePageButton svg{
+  fill: currentColor; 
+  transition: fill 0.3s;
+}
+.homePageHrWrapper{
+  color:#ffffff;
+}
+.homePageFlex{
+  align-items: center;
+  gap:10px;
+}
+/* cards */
+.homePageCardHeading{
+  font-family: "Open Sans";
+font-size: 25px;
+font-weight: 700;
+line-height: 37.5px;
+color: #1D0093;
+text-align: center;
+}
+.homePageCardBord{
+  border: none;
+  box-shadow: 1px 1px 15px #ccc;
+  border-radius: 40px;
+  background-color: #1D0093;
+  margin:30px 0px 50px 0px;
+}
+
+.homePageCardPage{
+  border: 2px solid #fff;
+  box-shadow: 1px 1px 15px #ccc;
+  border-radius: 40px;
+  background-color: #ffffff;
+  margin: 25px 0px 0px 0px;
+}
+.homePageCardButton{
+  text-align: center;
+  padding: 10px;
+}
+.homeCard{
+  text-align: center;
+}
+.homePageWrapperCopyright{
+  justify-content: center;
+}
+/* second card */
+.homeCardImg{
+  text-align: center;
+  margin: 57px 0px;
+}
+.homeButtonCard{
+  text-align: center;
+  padding: 10px;
+}
+.homeShortTimeParagraph{
+  font-family: "Inter";
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22.5px;
+  color: #898989;
+  padding: 0px 20px;
+  text-align: center;  
+}

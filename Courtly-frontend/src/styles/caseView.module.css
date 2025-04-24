@@ -1,0 +1,407 @@
+.caseSec {
+  padding-top: 20px;
+}
+.caseheading {
+  font-family: Open Sans;
+  font-size: 27px;
+  font-weight: 700;
+  line-height: 45px;
+  text-align: left;
+  color: #1d0093;
+  margin: 0;
+}
+.casebar {
+  background: #7755ff;
+  padding: 2px;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: left;
+  color: #ffffff;
+  white-space: nowrap;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 4px 15px;
+}
+.casegrey {
+  display: flex;
+  background: #d9d9d9;
+  align-items: center;
+  height: 100%;
+}
+.casecalender {
+  display: flex;
+  align-items: center;
+  display: flex;
+  align-items: center;
+  line-height: 2.5;
+  height: 100%;
+}
+.casespan {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.casecal {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: left;
+  color: #1d0093;
+  margin-bottom: 0;
+  padding-right: 20px;
+}
+.caseName {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: left;
+  color: #000000;
+  margin-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 5px;
+  height: 100%;
+  background-color: white;
+}
+.caseNumber {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  color: #000000;
+  padding-top: 20px;
+  height: 100%;
+  background-color: white;
+}
+
+.caseacc :global(.accordion-item) {
+  border: 0;
+  background-color: #fcfbff;
+}
+
+/* Tabs navigations */
+
+.tabsWrapper :global(.nav-item) {
+  flex: 1;
+}
+
+.tabsWrapper :global(.nav-item .nav-link) {
+  width: 100%;
+  border: 1px solid;
+  padding: 8px;
+}
+
+.tabsWrapper :global(.nav.nav-pills) {
+  gap: 5px;
+}
+
+.tabsWrapper :global(.tab-content .tab-pane) {
+  border: 0;
+}
+
+.tabsWrapper :global(.nav-item .nav-link) {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  padding: 10px;
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: #1d0093;
+}
+
+.tabsWrapper :global(.nav-item .nav-link.active) {
+  background-color: #1d0093;
+  color: #ffffff;
+  position: relative;
+  z-index: 2;
+}
+.tabsWrapper :global(.nav-item .nav-link svg path) {
+  
+  stroke: #1d0093;
+}
+
+.tabsWrapper :global(.nav-item .nav-link.active svg path) {
+  
+  stroke: #fff;
+}
+
+.tabsWrapper :global(.nav-item .nav-link.active)::after {
+  content: "";
+  width: 15px;
+  height: 15px;
+  background-color: #1d0093;
+  transform: translate(-50%, 50%) rotate(45deg);
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  z-index: -1;
+}
+
+.activityFormWrapper {
+  padding: 20px;
+  background-color: #0539921a;
+  border-radius: 5px;
+  
+}
+
+.activityFormWrapper :global(.ck.ck-content) {
+  min-height: 150px;
+}
+
+.activityFormWrapper form {
+  padding-top: 30px;
+}
+
+.activityFormWrapper form h2 {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #1d0093;
+}
+
+.activityFormWrapper form .radioWrapper {
+  display: flex;
+  gap: 10px;
+}
+
+.activityFormWrapper form .radioWrapper label {
+  padding: 7px 10px 7px 10px;
+  gap: 10px;
+  border-radius: 5px;
+  border: 1px solid #898989;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  max-width: 150px;
+}
+
+.documentReviewWrapper {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #1d0093;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.timestampWrapper {
+  color: #898989;
+  gap: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.timestamp {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+.horizontalRow {
+  border-color: #d9d9d9;
+  opacity: 1;
+}
+
+.documentWrapper h2 {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #1d0093;
+}
+
+.documentWrapper p {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #000000;
+}
+
+.caseacc :global(.accordion-button) {
+  background: white;
+  border-radius: 0 !important;
+  border: 1px solid #1d0093;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+  box-shadow: none;
+  color: #1d0093;
+}
+.caseCard {
+  background-color: #1d0093;
+}
+.caseCards h2 {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: left;
+  color: #ffffff;
+  justify-content: space-between;
+}
+.caseLink {
+  color: #fdd106;
+  gap: 3px;
+  display: flex;
+  align-items: center;
+}
+.caseBody {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #7755ff;
+}
+.caseBodyGrey {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #d9d9d9;
+}
+
+.Sectionmodalheading {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.tableNavHead {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tableNavHeadingWrraper {
+  display: flex;
+  align-items: center;
+}
+
+.tableButton {
+  background: #1d0093;
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: #ffffff;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+}
+
+.teamaddButton {
+  background: #fdd106;
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: #000;
+  font-family: "Inter";
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  font-size: 16px;
+}
+.teamaddButton:hover {
+  background: #fdd106;
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: #000;
+  font-family: "Inter";
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  font-size: 16px;
+}
+
+.teammemberOption {
+  display: flex;
+  gap: 20px;
+  justify-content: end;
+}
+
+.teammembersectionButton {
+  width: 100%;
+}
+
+.uploadContainer {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #e3e7f4;
+  padding: 20px;
+}
+
+.uploadLabel {
+  display: block;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.uploadBox {
+  border: 2px dashed #ccc;
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.uploadContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 120px;
+}
+
+.uploadIcon {
+  width: 40px;
+  height: 40px;
+  margin-bottom: 10px;
+}
+
+.uploadContent p {
+  font-size: 14px;
+  color: #666;
+}
+
+.uploadContent.chooseFile {
+  color: #007bff;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.uploadInfo {
+  margin-top: 10px;
+  font-size: 12px;
+  color: #666;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+.uploadInfo .fileSize {
+  font-weight: bold;
+}
+
+.activityFormWrapper  tr:last-child td:last-child{
+  width: 140px;
+}

@@ -1,0 +1,124 @@
+.profileArea {
+  padding: 80px 0px;
+  background-color: #fcfbff;
+}
+.profileAreaForm {
+  padding: 40px;
+  border-radius: 5px;
+  background-color: #fff;
+}
+.profileFormHeading {
+  font-family: Open Sans;
+  font-size: 20px;
+  font-weight: 700;
+  color: #000;
+}
+
+.btnWrapper {
+  display: flex;
+  justify-content: flex-end;
+}
+/* -----------upload css------------- */
+/* Wrapper for upload field */
+.profileAreaUpload {
+  border: 1px solid #898989;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  margin-bottom: 23px;
+}
+
+.profileAreaUpload .inputFeildsCommonWrapper {
+  margin-bottom: 0;
+}
+
+.profileAreaUpload .profileFormHeading {
+  margin-bottom: 15px;
+}
+.uploadContainer {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+/* Dummy Picture */
+.dummyPicWrapper {
+  width: 190px;
+  height: 190px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e6ecf5;
+  margin-right: 30px;
+  overflow: hidden;
+}
+.dummyPicWrapper svg {
+  height: 80px;
+  width: 80px;
+}
+
+.dummyPicWrapper svg path {
+  fill: #abaabb;
+}
+.dummyPic {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+/* Upload Details */
+.uploadDetails {
+  flex: 1;
+  text-align: center;
+}
+
+.uploadHeading {
+  font-weight: bold;
+}
+
+.uploadInstructions {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  color: #d9d9d9;
+}
+
+/* File Input */
+.fileInputWrapper {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  justify-content: center;
+}
+
+.fileInput {
+  display: none; /* Hide default input */
+}
+
+.fileInputLabel {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  background-color: transparent;
+  border-radius: 5px;
+  color: #000;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  border: 1px solid #898989;
+}
+
+.fileChosenText {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #000;
+  line-height: 24px;
+}

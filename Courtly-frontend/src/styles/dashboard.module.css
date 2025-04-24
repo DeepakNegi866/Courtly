@@ -1,0 +1,66 @@
+.caseDetailStripWrapper {
+  background-color: #f6f6f6;
+
+  border-radius: 30px;
+  margin: 10px 0;
+}
+.caseDetailStripWrapperList ul {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  padding-left: 0;
+  margin: 0;
+  padding: 10px;
+}
+.caseDetailStripWrapperList ul li {
+  margin-right: 20px;
+}
+
+.caseDetailStripWrapperListHeading {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: left;
+  color: #1d0093;
+}
+.caseDetailStripWrapperListValue {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #000;
+  margin-left: 5px;
+}
+
+
+
+/* case overview */
+
+
+.userCaseReview{
+   padding: 50px 0;
+}
+
+.caseOverview{
+  border: 1px solid #7755FF;
+  border-radius: 30px;
+  padding: 30px;
+}
+
+.CaseStatus{
+  border: 1px solid #7755FF;
+  border-radius: 30px;
+  padding: 30px;
+}
+
+.caseHeading{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  color: #1D0093;
+  font-size: 20px;
+}

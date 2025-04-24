@@ -1,0 +1,52 @@
+.tableNavHead{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.tableNavHeadingWrraper{
+    display: flex;
+    align-items: center;
+}
+
+.tableNavButtonWrapper{
+    display: flex;
+    gap: 10px;
+    justify-content: end;
+}
+
+.tableButton{
+    background: #1D0093;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: #ffffff;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+}
+
+
+.tableButton{
+    display: flex;
+    align-items: center;
+}
+
+.tableButton:hover{
+    background: #1D0093;
+    color: #ffffff;
+   
+}
+
+.tableRunningHeading{
+    font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  color: #1D0093;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 0px;
+}

@@ -1,0 +1,744 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz@0,14..32;1,14..32&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+.inter300 {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.inter400 {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.inter500 {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+.inter600 {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+.inter700 {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.openSans300 {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+.openSans400 {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+.openSans500 {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+.openSans600 {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+.openSans700 {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+/* --------------------------commonHeadings------------------ */
+.commonHeading {
+  font-family: "Open Sans", sans-serif;
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 90px;
+  color: #1d0093;
+}
+.commonSubHeading {
+  font-family: "Open Sans", sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 90px;
+  color: #1d0093;
+}
+.commonPara {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22.5px;
+  text-align: center;
+}
+
+.commonReadMore {
+  font-family: "Inter", sans-serif;
+  transition: 0.3s ease-in-out;
+  padding: 10px 30px 10px 30px;
+  background-color: #fdd106;
+  color: #1d0093;
+  border-radius: 30px;
+  border: 0;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+}
+.commonReadMore:hover {
+  background-color: #1d0093;
+  color: #fff;
+}
+:focus-visible {
+  outline: none !important;
+}
+
+/* -------------- Common Background Colors-------------- */
+
+.common-yellow-bg{
+  background-color: #FDD106;
+}
+
+.common-dark-bg{
+  background: #1D0093;
+}
+/* --------------Table Css----------- */
+
+.tabledata {
+  border-collapse: separate;
+  border-spacing: 0px;
+}
+
+.tabledata th:first-child {
+  border-top-left-radius: 5px;
+}
+
+.tabledata th:last-child {
+  border-top-right-radius: 5px;
+}
+
+.tabledata tr:last-child td:first-child {
+  border-bottom-left-radius: 5px;
+}
+
+.tabledata tr:last-child td:last-child {
+  border-bottom-right-radius: 5px;
+}
+.table-card {
+  border: 0px;
+}
+
+.table-header {
+  text-align: center;
+  background-color: #1D0093;
+  color: #ffffff;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  border: 1px solid #ddd;
+  font-size: 16px;
+  padding: 10px;
+}
+
+/* Change table header color in case priority */
+
+.tabledata.critical .table-header{
+  background-color: #d3be00;
+}
+
+.tabledata.normal .table-header{
+  background-color: #1eb47c;
+}
+
+
+.tabledata.super-critical .table-header{
+  background-color: #f11100;
+}
+
+.tabledata.archive .table-header{
+  background-color: #4287f5;
+}
+
+.tabledata.close .table-header{
+  background-color: #1d0093cf;
+}
+
+/* End Change table header color in case priority */
+
+.table-cell {
+  text-align: center;
+  padding: 10px;
+  border: 1px solid #ddd;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  color: #000000;
+  line-height: 24px;
+  max-width: 300px;
+}
+
+.form-area {
+  width: 24%;
+  border: 1px solid #1d0093;
+  border-radius: 5px;
+  color: #1d0093;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%231D0093' strokeLinecap='round' strokeLinejoin='round' strokeWidth='2' d='m2 5 6 6 6-6'/%3e%3c/svg%3e");
+}
+
+.form-area::placeholder {
+  color: #1d0093;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+}
+
+.form-area:focus {
+  border-color: unset;
+  box-shadow: unset;
+}
+/* ---------------------dashboard activity class--------------------------- */
+/* Global styles with camelCase class names */
+.activityCard {
+  padding: 25px 30px;
+  border-radius: 30px;
+  color: white;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.activityCard .cardContent {
+  display: flex;
+  justify-content: space-between;
+}
+
+.activityCard .cardNumber {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-size: 75px;
+  line-height: 1;
+  text-align: left;
+  margin-bottom: 0;
+}
+
+.activityCard .cardIcon {
+  margin-bottom: 10px;
+  /* font-size: 24px; */
+  height: 70px;
+  width: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: rgba(0, 0, 0, 0.2);
+}
+/* .activityCard .cardIcon svg path {
+  strokeWidth: #fff;
+} */
+
+.activityCard .cardTitle {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+}
+
+
+/*------------- case form---------- */
+.cases-main{
+  padding: 30px 0;
+}
+
+.add-case{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  color: #1D0093;
+  font-size: 30px;
+}
+.list-wrapper{
+  background: #ffffff;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 5px;
+  padding: 30px;
+  line-height: 3;
+}
+
+.list-wrapper li{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 16px;
+  color: #898989;
+}
+
+
+.cases{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 15px;
+  color: #898989;
+}
+
+.to-do-detail{
+  background: #FFFFFF;
+  padding: 30px;
+  border-radius: 5px;
+
+}
+
+.to-do-heading{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  color: #1D0093;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.to-do-date-para{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 16px;
+  color: #000000;
+  border-bottom: 1px solid #000000;
+}
+
+.to-do-para-proceedings{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  color: #000000;
+}
+
+.form-wrapper{
+  background: #FFFFFF;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.form-wrapper-heading{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 20px;
+  color: #1D0093;
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 40px;
+
+}
+
+.active{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 16px;
+  color: #1D0093;
+  border-bottom: 1px solid #1D0093;
+}
+
+
+.date-calendar{
+  padding: 50px 0px;
+}
+.date-calendar .fc-col-header-cell{
+   background: #1D0093;
+   border: none;
+}
+
+.date-calendar .fc-col-header-cell-cushion{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: #FFFFFF;
+}
+
+/* .date-calendar .fc-scrollgrid  .th:first-child{
+   
+  border-top-left-radius: 5px;
+  
+}
+
+.date-calendar .fc-scrollgrid  .th:last-child{
+  border-top-right-radius: 5px;
+} */
+
+.date-calendar  .fc-daygrid-day-number{
+  color: #1d0093;
+  font-size: 12px;
+  
+  cursor: pointer;
+}
+
+
+
+ .date-calendar .fc-view-harness{
+   height: 400px!important;
+  
+}
+
+
+
+ .date-calendar .fc-daygrid-day-frame{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.date-calendar .fc .fc-scrollgrid{
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border: 1px solid #1D0098;
+  border-radius: 15px;
+}
+
+.date-calendar .fc-scrollgrid  th:first-child{
+   
+  border-top-left-radius: 15px;
+  
+  
+}
+
+.date-calendar .fc-scrollgrid  th:last-child{
+   
+  border-top-right-radius: 15px;
+  
+  
+}
+
+.date-calendar .fc-scrollgrid tr:last-child td:first-child {
+   
+  border-bottom-left-radius: 15px;
+}
+
+.date-calendar .fc-scrollgrid tr:last-child td:last-child{
+   border-bottom-right-radius: 15px;
+}
+
+.date-calendar .fc-header-toolbar {
+  margin-top: 10px;
+}
+
+.date-calendar thead th{
+  border: 0px;
+}
+
+.date-calendar .fc-prev-button {
+  background: #1D0093;
+    padding: 0px;
+    height: 30px;
+    margin-right: 10px;
+    border-radius: 5px!important;
+}
+
+
+.date-calendar .fc-next-button{
+  background: #1D0093;
+    padding: 0px;
+    height: 30px;
+    border-radius: 5px!important;
+}
+
+
+.date-calendar .fc .fc-toolbar{
+  align-items: center;
+    display: flex;
+    justify-content: center!important;
+    flex-direction: column;
+}
+
+.date-calendar .fc-toolbar-chunk{
+   position: relative;
+}
+
+.date-calendar .fc-prev-button {
+  position: absolute;
+  top: -26px;
+    left: -70px;
+}
+
+
+.date-calendar .fc-next-button {
+  position: absolute;
+  top: -27px;
+    right: -58px;
+}
+
+ .date-calendar  .fc-toolbar-title{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 16px;
+  color: #1D0093;
+}
+
+ .date-calendar .fc-col-header-cell-cushion,.fc-daygrid-day-number{
+   
+  text-decoration: none;
+}
+
+
+.date-calendar .fc-today-button {
+   
+  display: none!important;
+}
+
+.date-calendar  .calendarHeading{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  color: #1D0093;
+  font-size: 20px;
+  margin-bottom: 0px;
+  text-align: center;
+}
+
+.listWrapper{
+  margin-top: 30px;
+}
+
+.commonButton{
+  background-color: #FDD106;
+    min-height: 36px;
+    min-width: 120px;
+    border: none;
+    color: #1D0093;
+    border-radius: 20px;
+}
+.commonRejectButton{
+  background-color: #6c757d;
+    min-height: 36px;
+    min-width: 120px;
+    border: none;
+    color: #fff;
+    border-radius: 20px;
+}
+.commonButton:hover{
+  background-color: #FDD106;
+  min-height: 36px;
+  min-width: 120px;
+  border: none;
+  color: #1D0093;
+  border-radius: 20px;
+
+}
+
+.commonButton:active{
+  background-color: #FDD106 !important;
+  min-height: 36px;
+  min-width: 120px;
+  border: none;
+  color: #1D0093 !important;
+  border-radius: 20px !important;
+
+}
+
+.listWrapper ul{
+  display: flex;
+  gap: 30px;
+  padding-left: 0;
+}
+
+.listWrapper li{
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.eventList{
+  background: #00A6CB;
+  border-radius: 50%;
+  width: 20px;
+    height: 20px;
+    margin-right: 6px;
+}
+
+.eventListTwo{
+  background: #AAAAAA;
+  border-radius: 50%;
+  width: 20px;
+    height: 20px;
+    margin-right: 6px;
+}
+
+.eventListThree{
+  border-radius: 50%;
+  background: #E0BF00;
+  width: 20px;
+    height: 20px;
+    margin-right: 6px;
+}
+
+.eventListFour{
+  border-radius: 50%;
+  background: #9C00C3;
+  width: 20px;
+    height: 20px;
+    margin-right: 6px;
+}
+
+
+/*------------------------ pagination code----------------*/
+
+.react-pagination {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin-top: 35px;
+}
+
+.react-pagination li {
+  margin: 0 5px;
+}
+
+.react-pagination li a {
+  cursor: pointer;
+  padding: 8px 12px;
+  border: 1px solid  #1D0093;
+  color:#000;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.react-pagination li a:hover,
+.react-pagination li a:focus {
+  background-color: #1D0093;
+  color: white!important;
+}
+
+.react-pagination li.selected a {
+  background-color:#1D0093;
+  color: white;
+  border-color: transparent;
+}
+
+
+.react-pagination li a[aria-disabled="true"]{
+  pointer-events: none;
+  background: #1D0093;
+  color: white;
+  opacity: 0.7;
+}
+
+.fc .fc-daygrid-day.fc-day-today {
+  background-color: #fcfbff!important;
+}
+
+.fc .fc-daygrid-day-bottom {
+   background: #1d0093;
+   margin-top: 2px!important;
+   border-radius: 2px;
+}
+
+.fc .fc-daygrid-more-link{
+  text-decoration: none;
+  color: #FFFFFF;
+ 
+}
+
+.ck-powered-by {
+  display: none !important;
+}
+
+
+
+.ck.ck-editor__main>.ck-editor__editable {
+  min-height: 100px;
+}
+
+.ck-rounded-corners .ck.ck-editor__main>.ck-editor__editable, .ck.ck-editor__main>.ck-editor__editable.ck-rounded-corners{
+  color: #000000;
+}
+
+/* -------Pdf View----- */
+.pdf-header {
+  background: #002147;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+.pdf-header img {
+  max-width: 100px;
+}
+.pdf-table th, .table td {
+  text-align: center;
+}
+.pdf-footer {
+  background: #f8f9fa;
+  padding: 10px;
+  text-align: center;
+}
+
+
+/* -------Media Query----- */
+
+@media screen and (max-width: 999.98px) {
+  .commonButton {
+  
+    min-height: 36px;
+    min-width: 96px;
+  
+}
+}
+
+@media screen and (max-width: 850.98px) {
+  .commonButton {
+     
+      min-height: 30px;
+      min-width: 85px;
+      
+  }
+}

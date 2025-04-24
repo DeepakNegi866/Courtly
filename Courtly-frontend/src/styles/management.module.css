@@ -1,0 +1,371 @@
+.managemnetNavbarMain{
+  padding: 0px 0px;
+  border-bottom: 1px solid #898989;
+  background: #ffffff !important;
+}
+
+.managementNavLogo {
+  width: 120px;
+  margin-right: 5px;
+}
+
+
+
+.managementList {
+  padding: 10px 10px;
+  list-style: none;
+  display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.managementNavIcons {
+  margin-right: 4px;
+}
+
+.managementNavbarListWrapper li{
+    padding: 0 8px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.managementNavbarListWrapper li:hover{
+  background: #7755FF1A;
+  
+}
+
+.managementNavIconsDropdown{
+    margin-left: 4px;
+}
+
+.managementSearch{
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+}
+
+.managementNavCollap{
+  display: flex;
+  justify-content: space-between;
+}
+
+.managementNavDropdownMenu {    
+  border: none;
+  border-radius: 0px;
+  background: #F2EEFF;
+  margin-top: 0px !important;
+}
+
+.managementNavDropdown:hover {
+  background: #f2eeff;
+}
+
+.managementNavCollap{
+  align-items: unset;
+}
+
+
+.managementNavSearch{
+  height: 60px;
+    align-items: center;
+    margin-top: 3px;
+    position: relative;
+    width: 180px;
+}
+
+.managementSearchInput {
+  border-radius: 40px;
+}
+
+.managementSearchInput:focus{
+     box-shadow: unset;
+     border-color: #dee2e6;
+}
+
+
+.managementSearchInput::placeholder{
+  color: #89898980;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 12px;
+
+}
+
+.managementProfileList {
+  background: #fcfbff;
+  border-radius: 50px;
+}
+
+.managementProfileDropdown {
+  align-items: center;
+  line-height: 1;
+}
+
+.managementHeaderLinks svg{
+   height: 15px;
+   width: 15px;
+}
+
+.managementHeaderLinks {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  color: #000000;
+  
+}
+
+.managementHeaderLinks::after {
+  display: none;
+}
+
+.managementFooterListWrapper{
+    display: flex;
+    margin-bottom: 0px;
+    flex-wrap: wrap;
+    justify-content: center
+}
+
+.managementFooterWrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.managementFooterListWrapper li {
+  list-style: none;
+  padding: 10px 10px;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 15px;
+  color: #1D0093;
+}
+
+.managementFooterListFirst a{
+  list-style: none;
+  padding: 10px 10px;
+  font-family: "Inter", sans-serif;
+font-optical-sizing: auto;
+font-weight: 500;
+font-style: normal;
+font-size: 15px;
+color: #1D0093;
+text-decoration: none;
+}
+
+.managementFooterCopyright{
+    font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  color: #000000;
+  padding: 10px 10px;
+}
+
+.layoutWrapper {
+  min-height: calc(100vh - 196px);
+  background: #FCFBFF;
+}
+.managementFooterHead{
+  background: #FCFBFF;
+  border-top: 1px solid #D9D9D9;
+  padding: 17px 0px;
+    
+}
+
+.managementNavDropdown{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 12px;
+  color: #000000;
+}
+
+.managementHearingDate{
+  background: #FDD106;
+  width: 257px;
+  padding: 10px 20px 10px calc(var(--bs-gutter-x) * .5);
+  gap: 10px;
+  display: flex;
+  align-items:center;
+}
+
+.managementMarqueee{
+  flex: 1;
+  padding: 0;
+}
+
+.managemnetNextText{
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  color: #1D0093;
+}
+
+.managementDateText{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 16px;
+  color: #FDD106;
+
+}
+
+.managementAssistantPara{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 16px;
+  color: #ffffff;
+}
+
+.nav-item.dropdown {
+  position: relative;
+}
+
+.managementNavDropdownMenu {
+  display: none; /* Hidden by default */
+}
+
+.nav-item.dropdown:hover .managementNavDropdownMenu {
+  display: block; /* Show on hover */
+}
+
+.managementNavDropdown {
+  padding: 8px 12px; /* Adjust as needed */
+}
+
+.managementNavDropdown:hover {
+  background-color: #f0f0f0; /* Change this to your desired hover color */
+}
+
+.nav-item.dropdown.active .managementNavDropdown {
+  background-color: #e0e0e0; /* Change this to your desired active color */
+}
+/* ----------------------commonSidebar---------------------------------- */
+.commonSidebar{
+  padding: 30px 0px;
+}
+
+.sideBarMenu {
+  box-shadow: 0px 0px 20px 0px #0000000d;
+  padding-right: 0!important;
+  background-color: #1d0093;
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 20px;
+  list-style-type: none;
+  margin: 0;
+}
+
+.sideBarMenu li {
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+  color: #000;
+  margin: 4px 0;
+  border-top-left-radius: 35px;
+  border-bottom-left-radius: 35px;
+}
+.sideBarMenu li span {
+  margin-right: 10px;
+}
+.sideBarMenu li.active {
+  background: #1d0093;
+  color: #fff;
+}
+.sideBarMenu li.active svg {
+  height: 23px;
+  width: 23px;
+}
+.sideBarMenu li.active svg path {
+  fill: #fff;
+}
+
+/* sideBarLink */
+.sideBarLink{
+  padding: 20px 40px;
+  text-decoration: none;
+  color: #000;
+  display: flex;
+  gap: 20px;
+}
+
+.sideBarMenu .active a {
+  color: #fff;
+}
+
+.sideBarLink:hover{
+  color: #7755ff;
+}
+
+.configurationCard{
+  box-shadow: 0px 0px 20px 0px #0000000d;
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 20px;
+  height: 100%;
+}
+
+
+/* ----------- Media query ---------- */
+
+
+
+
+
+@media screen and (max-width: 476.98px) {
+  .managementHearingDate{
+    width: 200px;
+    
+  }
+
+
+  .managemnetNextText{
+    font-size: 14px;
+   
+  }
+
+  .managementHearingDate svg{
+   width: 20px;
+    
+  }
+}
+
+
+@media screen and (max-width: 420.98px){
+  .managementHearingDate{
+    width: 184px;
+    
+  }
+}
+
+@media screen and (max-width: 390.98px) {
+
+  .managementHearingDate{
+    width: 163px;
+    
+  }
+
+  .managemnetNextText{
+    font-size: 12px;
+   
+  }
+
+  .managementHearingDate svg{
+    width: 16px;
+     
+   }
+}

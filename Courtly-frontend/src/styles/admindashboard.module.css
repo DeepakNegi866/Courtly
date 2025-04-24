@@ -1,0 +1,1164 @@
+.admindashboradTopsection {
+    margin-bottom: 20px;
+}
+
+.progressBarsection {
+    background-color: #1D0093;
+    padding: 30px;
+    height: 100%;
+    border-radius: 50px;
+    min-height: 352px;
+}
+
+.progressBarfield {
+    color: #FFFFFF;
+    font-size: 16px;
+    line-height: 19.36px;
+    font-family: "Inter";
+    font-weight: 700;
+}
+
+.progresslivecaseNumber {
+    color: #FFFFFF;
+    font-size: 16px;
+    line-height: 19.36px;
+    font-family: "Inter";
+    font-weight: 400;
+}
+
+.totalCasebarsection {
+    margin-top: 25px;
+    display: flex;
+    gap: 20px;
+}
+
+.totelCaseheading {
+    font-size: 30px;
+    font-weight: 700;
+    color: #FFFFFF;
+    line-height: 36.36px;
+    font-family: "Inter";
+}
+
+.commonNumber {
+    font-size: 75px;
+    margin-top: -18px;
+    font-weight: 700;
+    font-family: "Inter";
+    color: #FFFFFF;
+}
+
+.progrssBar {
+    display: flex;
+    width: 100%;
+    background-color: #1e0080;
+    /* Dark blue background */
+    border-radius: 20px;
+    height: 15px;
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+.progrssbarSupercritical {
+    height: 100%;
+    background-color: #F11000;
+    /* Red */
+    width: 15%;
+    /* Adjust width based on proportion */
+}
+
+.progrssbarCritical {
+    height: 100%;
+    background-color: #FF9900;
+    /* Orange */
+    width: 10%;
+}
+
+.progrssbarImportantcasesyellow {
+    height: 100%;
+    background-color: #D3BE00;
+    /* Yellow */
+    width: 8%;
+}
+
+.progrssbarImportantcasesblue {
+    background-color: #0747B5;
+    /* Blue */
+    width: 15%;
+    height: 100%;
+}
+
+.progrssbarImportantcasesgrey {
+    height: 100%;
+    background-color: #617E90;
+    /* Teal green */
+    width: 17%;
+}
+
+.progrssbarImportantcasesgreen {
+    height: 100%;
+    background-color: #1EB47C;
+    /* Teal green */
+    width: 35%;
+}
+.progressBardata{
+    gap: 20px;
+}
+.commonprogressbarSection {
+    display: flex;
+    gap: 10px;
+    margin-top: 12px;
+}
+
+.commonprogressbarsecondSection {
+    display: flex;
+    gap: 10px;
+    
+}
+.supercriticalRedbox {
+    height: 18px;
+    width: 18px;
+    background-color: #F11000;
+    border-radius: 5px;
+}
+
+.commonprogressbarlData {
+    font-size: 13px;
+    line-height: 19.36px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+.importantCasesyellowBox {
+    height: 18px;
+    width: 18px;
+    background-color: #D3BE00;
+    border-radius: 5px;
+}
+
+.importantCasesgreyBox {
+    height: 18px;
+    width: 18px;
+    background-color: #617E90;
+    border-radius: 5px;
+}
+
+.importantCasesorangeBox {
+    height: 18px;
+    width: 18px;
+    background-color: #FF9900;
+    border-radius: 5px;
+}
+
+.importantCasesblueBox {
+    height: 18px;
+    width: 18px;
+    background-color: #0747B5;
+    border-radius: 5px;
+}
+
+
+.importantCasesgreenBox {
+    height: 18px;
+    width: 18px;
+    background-color: #1EB47C;
+    border-radius: 5px;
+}
+
+.progresssecondDatasection {
+    display: flex;
+}
+
+/*----------------hearingDatesection-------------*/
+
+
+.hearingDatesection {
+    background-color: #7755FF;
+    padding: 30px ;
+    border-radius: 50px;
+    height: 100%;
+    position: relative;
+}
+
+.hearingHeadingsection {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hearingHeading {
+    font-size: 30px;
+    color: #FFFFFF;
+    font-family: "Inter";
+    font-weight: 700;
+}
+
+.hearingDate {
+    color: #FFFFFF;
+    font-family: "Inter";
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.dashboardCommonpara {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    margin-top: 22px;
+    font-family: "Inter";
+    
+}
+
+.admincommonButton{
+    position: absolute;
+    bottom: 30px;
+}
+
+.admintodosButton{
+    position: absolute;
+    bottom: 30px;
+
+}
+
+.dashboardRecentcasepara {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    margin-top: 5px;
+    font-family: "Inter";
+    word-wrap: break-word;
+    
+}
+
+
+
+
+
+
+/*----------------documentSection----------------------*/
+
+.documentSection {
+    background-color: #1D0093;
+    padding:  30px ;
+    border-radius: 50px;
+    height: 100%;
+    position: relative;
+}
+
+.documentHeading {
+    color: #FFFFFF;
+    font-family: "Inter";
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 36px;
+}
+
+.totaldocumentNumbers {
+    display: flex;
+    margin-bottom: 30px;
+    margin-top: 36px;
+}
+
+.totalClientdocumentNumbers {
+    display: flex;
+    margin-top: 36px;
+}
+/*------------------------recentCaseactivities-----------------*/
+
+.recentCasedata {
+    justify-content: space-between;
+    padding-right: 35px;
+
+}
+
+.recentCaseactivities {
+    background-color: #7755FF;
+    padding: 30px 40px;
+    border-radius: 50px;
+    min-height: 367px;
+}
+
+.recentCaseheading {
+    font-size: 30px;
+    font-weight: 600;
+    font-family: "Inter";
+    line-height: 36px;
+    color: #FFFFFF;
+}
+
+.recentinfouppersection {
+    display: flex;
+    gap: 20px;
+    background-color: #1D0093;
+    border-radius: 20px;
+    color: #FFFFFF;
+    padding: 5px 18px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+
+.recentCaseactivitiesinfo {
+    display: flex;
+    gap: 20px;
+    background-color: #1D0093;
+    border-radius: 20px;
+    color: #FFFFFF;
+    padding: 5px 18px;
+    margin-top: 15px;
+    margin-bottom: 35px;
+}
+
+.recentCaseactivitiesdate {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    font-family: "Inter";
+    margin-bottom: 0px;
+}
+
+.recentCaseactivitiessecondsection {
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 24px;
+    font-family: "Inter";
+    margin-bottom: 0px;
+}
+
+.recentCasesecondsectiondata{
+    font-size: 14px;
+    font-weight: 400;
+    font-weight: 21px;
+    font-family: "Inter";
+
+}
+
+
+
+.recentCaseactivitiesonwer {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    font-family: "Inter";
+    margin-bottom: 0px;
+}
+
+.caseactivitiesHeading {
+    font-size: 14px;
+    color: #1D0093;
+    font-weight: 700;
+    line-height: 21px;
+}
+
+/*----------------clientSection--------------*/
+
+.clientSection {
+    background-color: #1D0093;
+    padding: 30px;
+    border-radius: 50px;
+    height: 100%;
+    position: relative;
+}
+
+/*-------------todoSection------------*/
+
+.todoSection {
+    background-color: #7755FF;
+    padding: 30px;
+    border-radius: 50px;
+    height: 100%;
+    position: relative;
+}
+
+.todoHeadingsection {
+    display: flex;
+    justify-content: space-between;
+}
+
+.todoPendingsection {
+    display: flex;
+    gap: 5px;
+}
+
+.todoparaSection {
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.todoUpcomingsection {
+    display: flex;
+    gap: 5px;
+}
+
+.todoUpcomingPara {
+    font-size: 16px;
+    color: #FFFFFF;
+    
+}
+
+.todoCompleteSection {
+    display: flex;
+    gap: 5px;
+}
+
+.todoCompletedpara {
+    font-size: 16px;
+    color: #FFFFFF;
+    padding-bottom: 32px;
+}
+
+.todosinnerData {
+    margin: 20px 0px 0px 0px;
+}
+
+/*-------------------teamMemberinvocesection -------------*/
+
+.teamMemberinvocesection {
+    height: 100%;
+    background-color: #1e0080;
+    border-radius: 50px;
+}
+
+.teamMembersection {
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 6px;
+}
+
+.teamMemberinnersection {
+    margin-top: 24px;
+}
+
+.teamMemberheading {
+    color: #FFFFFF;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: "Inter";
+    line-height: 36px;
+    padding-top: 24px;
+}
+
+.teamMembernumber {
+    font-size: 75px;
+    font-weight: 600;
+    line-height: 90px;
+    font-family: "Inter";
+    color: #FFFFFF;
+    margin-bottom: 40px;
+}
+
+.teamMemberinnerlLine {
+   
+    width: 66%;
+    /* Adjust the width as needed */
+    margin: 10px auto;
+    margin-top: 28px !important;
+    border-top-style: solid ;
+    opacity: 1;
+    height: 2px; /* Adjust this value to change thickness */
+    background-color: #FFFFFF; /* Line color */
+}
+
+.invoiceSection {
+    padding-left: 78px;
+}
+
+.invoiceinnerSection {
+    display: flex;
+    margin-bottom: 70px;
+    margin-top: 38px;
+}
+
+/*-----------------upcomingTodosSection----------------*/
+
+.upcomingTodosSection {
+    background-color: #FF5555;
+    height: 100%;
+    border-radius: 50px;
+}
+
+.todoouterSection {
+    padding-left: 40px;
+    margin-bottom: 20px;
+}
+
+.TodosinnerSection {
+    display: flex;
+    padding: 50px 90px 0px 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.upcomingtodoHeading {
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 36px;
+    font-family: "Inter";
+    color: #FFFFFF;
+    text-align: justify;
+}
+
+.upcomingtodoData {
+    padding: 10px 50px 25px 50px;
+}
+
+.upcomingtodoAddress {
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    font-family: "Inter";
+    margin-top: 10px;
+    margin-bottom: 78px;
+}
+
+.upcomingtodoDate {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    font-family: "Inter";
+    color: #FFFFFF;
+}
+
+.upcomingtodoTime {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    font-family: "Inter";
+    color: #FFFFFF;
+    padding-bottom: 20px;
+}
+
+.upcomingTodosSection {
+    margin: 20px -13px;
+}
+
+/*------------------tableMainheading------------------------*/
+.DashboardtableSection {
+    margin-top: 30px;
+}
+
+.tableHeading {
+    background-color: #1D0093 !important;
+    color: #FFFFFF !important;
+    text-align: center;
+    font-family: "Inter";
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 400;
+    padding: 25px !important;
+}
+
+.tableinnerData {
+    text-align: center;
+    padding: 25px;
+}
+
+.tableUsersection {
+    display: flex;
+    gap: 20px;
+    color: #000000 !important;
+    font-size: 16px;
+    line-height: 16px;
+    font-family: "Inter";
+    font-weight: 400;
+    padding: 25px 20px !important;
+}
+
+.tableuserinnerData {
+    padding: 28px 0px !important;
+}
+
+.tabeluserName {
+    margin-top: 5px;
+}
+
+.dashboradTabledata {
+    border-radius: 22px;
+    /* Rounds all corners */
+    overflow: hidden;
+    /* Ensures content stays within the rounded corners */
+    
+}
+
+/* Adds bottom-left border radius to the first header cell */
+.tableHeading:first-child {
+    border-bottom-left-radius: 22px;
+}
+
+/* Adds bottom-right border radius to the last header cell */
+.tableHeading:last-child {
+    border-bottom-right-radius: 22px;
+}
+
+.tableTheadsection tr {
+    border: 0;
+
+}
+
+/*-----------------calenderView-------------*/
+
+.calendarView {
+    background-color: #1D0093;
+    color: #FFFFFF;
+    margin-top: 20px;
+    padding: 30px 28px;
+    border-radius: 50px;
+    width: 73.8%;
+    margin-left: 12px;
+}
+
+.calendarView :global(.fc-view) {
+    background-color: #FFFFFF;
+}
+
+.calendarView :global thead[role="presentation"] {
+    background-color: #7755FF;
+    /* Set the background color */
+    color: white !important;
+    /* Set the text color */
+    /* Remove any border if applicable */
+}
+
+.calendarView :global(.fc-col-header-cell-cushion) {
+    color: #FFFFFF;
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 400;
+    font-family: "Inter";
+    height: 50px !important;
+
+}
+
+.calendarView :global(.fc-header-toolbar.fc-toolbar){
+    gap: 15px;
+}
+
+.calendarView :global(.fc .fc-daygrid-day-number ){
+    color: #1D0093 !important;
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 400;
+    font-family: "Inter";
+    cursor: pointer;
+}
+
+.calendarView :global(.fc-scrollgrid-sync-inner) a {
+    border: none;
+    /* Removes any border from the anchor */
+    text-decoration: none;
+    /* Removes underline if it's styled as an anchor */
+    padding-top: 18px;
+}
+
+.calendarView :global(.fc-daygrid-day-top) {
+    display: block;
+}
+
+.calendarView :global(.fc .fc-daygrid-more-link){
+    padding-top: 2px!important;
+}
+.calendarView :global(.fc-scrollgrid-sync-inner) {
+    display: flex;
+    align-items: center;
+    padding: 0px 14px;
+}
+
+/*--------------calendarView button--------*/
+
+.calendarView :global(.fc-header-toolbar.fc-toolbar) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+/* .calendarView :global(.fc-today-button.fc-button.fc-button-primary) {
+    display: none;
+} */
+
+/* .calendarView :global(.fc-toolbar-chunk) {
+    position: relative;
+} */
+
+.calendarView :global(.fc-prev-button.fc-button.fc-button-primary) {
+    height: 40px;
+    width: 40px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+   
+}
+
+.calendarView :global(.fc-next-button.fc-button.fc-button-primary) {
+    height: 40px;
+    width: 40px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+}
+
+.calendarView :global(.fc .fc-button-primary) {
+    color: #0747B5;
+    padding-right: 20px;
+    
+}
+
+.calendarView :global(.fc-scrollgrid.fc-scrollgrid-liquid) {
+    border-radius: 32px;
+    overflow: hidden;
+    background-color: #FFFFFF;
+}
+
+.calendarView :global(.fc .fc-daygrid-day.fc-day-today ){
+    background-color: transparent !important;
+}
+
+.calendarView :global(.fc-dayGridMonth-view.fc-view.fc-daygrid) {
+    background: transparent;
+}
+
+.calendarView :global(.fc-event.fc-event-start.fc-event-end.fc-event-past.fc-daygrid-event.fc-daygrid-dot-event) {
+    padding: 0;
+}
+
+
+.modalHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 18px;
+}
+
+.modalButtn {
+    background: #1D0093;
+    color: #fff;
+
+}
+.modalButtn:hover {
+    background: #1D0093;
+    color: #fff;
+
+}
+
+.fcdaygrid-dot-event:hover{
+    background: none!important;
+}
+/* -------- Media Query ------ */
+
+
+@media screen and (max-width: 1199.98px) {
+  
+    .hearingHeading {
+        font-size: 25px;
+        
+    }
+
+    .documentHeading{
+        font-size: 25px; 
+    }
+
+    .teamMemberheading{
+        font-size: 25px;
+    }
+
+    .commonNumber{
+        font-size: 65px;
+    }
+
+    .totaldocumentNumbers svg{
+       width: 80px;
+    }
+
+    .teamMembersection svg{
+        width: 90px;
+    }
+
+    .teamMembernumber{
+        font-size: 65px;
+    }
+
+    .totalClientdocumentNumbers svg{
+       width: 80px;
+    }
+
+    .invoiceSection{
+        padding-left: 70px;
+    }
+
+    .upcomingTodosSection{
+        margin: 20px 0px;
+    }
+
+    .todoouterSection{
+        padding-left: 24px;
+    }
+}
+
+
+@media screen and (max-width: 1076.98px) {
+    
+    .hearingHeading{
+        font-size: 22px;
+    }
+    
+    .documentHeading{
+        font-size: 22px;
+    }
+
+    .teamMemberheading{
+        font-size: 22px;
+    }
+
+    .invoiceinnerSection svg{ 
+       width: 80px;
+    }
+
+    .teamMembernumber{
+        font-size: 55px;
+    }
+}
+
+
+
+@media screen and (max-width: 1040.98px) {
+    .documentSection{ 
+        padding: 25px;
+    }
+
+    .recentCasedata svg{
+       width: 80px;
+    }
+
+    .hearingHeadingsection{
+        display: block;
+    }
+}
+
+
+@media screen and (max-width: 999.98px) {
+    
+
+.todoUpcomingsection,.todoPendingsection,.todoCompleteSection{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.totalClientdocumentNumbers{
+    display: block;
+    text-align: center;
+}
+.documentHeading{
+   text-align: center;
+}
+
+.invoiceinnerSection{
+    display: block;
+}
+    
+}
+
+@media screen and (max-width: 998.98px) {
+    .calendarView{
+        margin-left: 11px;
+    }
+
+    .upcomingtodoData{
+        padding: 10px 20px 25px 20px;
+    }
+
+    .TodosinnerSection{
+        padding: 50px 20px 0px 20px;
+    }
+}
+
+@media screen and (max-width: 980.98px) {
+    
+    .documentSection{
+        padding: 27px;
+    }
+
+    .documentHeading{
+        font-size: 18px;
+    }
+
+    .commonNumber{
+        font-size: 50px;
+    }
+
+    .totaldocumentNumbers svg{
+        width: 50px;
+        height: 80px;
+     }
+
+     .commonButton {
+        min-height: 33px;
+        min-width: 100px;
+    }
+    .recentCasedata svg{
+        width: 66px;
+        height: 66px;
+     }
+
+     .hearingHeading{
+        font-size: 18px;
+     }
+
+     .recentCaseheading{
+        font-size: 18px;
+        line-height: 29px;
+     }
+
+     .teamMemberheading{
+        font-size: 18px;
+     }
+
+     .upcomingtodoHeading{
+        font-size: 22px;
+     }
+}
+
+@media screen and (max-width: 915.98px) {
+
+    .calendarView{
+        margin-left: 9px;
+    }
+}
+
+@media screen and (max-width: 890.98px) {
+    .documentHeading{
+        font-size: 17px;
+    }
+
+    .documentSection{
+        padding: 24px;
+    }
+
+    .hearingHeading{
+        font-size: 17x;
+    }
+
+    .recentCasedata svg{
+        width: 60px;
+     }
+
+    .hearingDatesection{
+        padding: 22px;
+    }
+
+    .upcomingtodoHeading{
+        font-size: 27px;
+    }
+}
+
+@media screen and (max-width: 850.98px) {
+    .documentSection{
+        padding: 22px;
+    }
+
+    .documentHeading{
+        font-size: 16px;
+    }
+
+    .hearingHeading{
+        font-size: 16px;
+    }
+
+    .hearingDatesection{
+        padding: 20px;
+    }
+
+    .hearingHeadingsection{
+        display: block;
+    }
+
+    .recentCaseactivities{
+        padding: 30px 23px;
+    }
+
+    .recentCaseheading{
+        font-size: 16px;
+    }
+
+    .recentCasedata svg{
+        width: 52px;
+        height: 50px;
+    }
+}
+
+@media screen and (max-width: 776.98px) {
+    .documentSection{
+        padding: 19px;
+    }
+
+    .commonButton {
+       
+        min-height: 30px!important;
+        min-width: 85px!important;
+        
+    }
+}
+
+@media screen and (max-width: 767.98px) {
+    .admincommonButton{
+        bottom: 18px;
+    }
+
+  .hearingHeadingsection{
+    margin-bottom: 40px;
+    display: flex;
+  }
+
+    .hearingHeading{
+        font-size: 30px;
+       
+    }
+
+    .recentCaseheading{
+       font-size: 30px;
+    }
+
+    .totaldocumentNumbers{
+        margin-bottom: 22px;
+        margin-top: 0px;
+    }
+
+    .recentCaseactivities{
+        min-height: 0px;
+    }
+
+    .todoUpcomingsection,.todoPendingsection,.todoCompleteSection{
+        display: flex;
+        justify-content: left;
+    }
+
+    .totalClientdocumentNumbers{
+        margin-top: 10px;
+        margin-bottom: 20px;
+        gap: 25px;
+        display: flex;
+    justify-content: space-between;
+    }
+
+    .documentSection{
+        padding: 30px;
+    }
+
+    .todosinnerData{
+        margin: 0px 0px 20px 0px;
+    }
+
+    .invoiceinnerSection{
+        margin: 10px 0px 10px 0px;
+    }
+
+    .invoiceSection{
+        padding-bottom: 20px;
+    }
+
+    .teamMembernumber{
+        margin-bottom: 10px;
+    }
+
+    .calendarView{
+        width: 97%;
+        margin: 0px auto;
+
+    }
+
+    .upcomingtodoData{
+        padding: 8px 50px 0px 50px;
+    }
+
+    .upcomingtodoAddress{
+        margin-bottom: 24px;
+    }
+    
+    .calendarView .fc-scrollgrid-sync-inner{
+      padding: 0px 7px;
+    }
+    
+    .hearingDatesection{
+        padding: 30px;
+    }
+
+    .documentHeading{
+        font-size: 30px;
+        text-align: left;
+    }
+
+    .teamMemberinvocesection{
+        display: flex;
+    justify-content: space-around;
+    }
+    
+    .teamMemberinnerlLine{
+        width: 0%; 
+    margin: 0px;
+    }
+
+}
+
+@media screen and (max-width: 480.98px) {
+    .recentCasedata svg {
+        width: 57px;
+    height: 70px;
+    }
+}
+
+@media screen and (max-width: 420.98px) {
+   
+    .calendarView :global(.fc .fc-toolbar-title) {
+        font-size: 1.2em!important;
+    }
+
+    .calendarView :global(.fc .fc-button .fc-icon) {
+        font-size: 1.4em;
+        line-height: 0.6;
+        display: inline-block;
+    }
+
+    .calendarView :global(.fc-prev-button.fc-button.fc-button-primary) {
+        height: 30px;
+        width: 30px;
+       
+       
+    }
+
+    .calendarView :global(.fc-next-button.fc-button.fc-button-primary) {
+        height: 30px;
+        width: 30px;
+    }
+
+    .calendarView :global(.fc .fc-button-primary) {
+        padding-right: 24px;
+        padding-left: 2px;
+        
+    }
+
+    
+}
+
+@media screen and (max-width: 390.98px) {
+    .calendarView :global(.fc-col-header-cell-cushion) {
+        padding-left: 0px;
+        font-size: 14px;
+    
+    }
+
+    .calendarView :global(.fc-scrollgrid-sync-inner) {
+        padding: 0px 8px;
+    }
+
+    .calendarView :global(.fc .fc-daygrid-day-number ){
+        font-size: 14px;
+       
+    }
+
+    .commonButton {
+        min-height: 30px;
+        min-width: 90px;
+        font-size: 14px;
+    }
+}

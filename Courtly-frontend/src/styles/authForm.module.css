@@ -1,0 +1,270 @@
+.commonFormRow {
+  margin-bottom: 16px;
+}
+.commonFormHeading {
+  font-family: Open Sans;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 45px;
+  text-align: left;
+  color: #1d0093;
+}
+
+.inputFeildsCommonWrapper {
+  margin-bottom: 20px;
+}
+.commonFormLabel {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  margin-bottom: 5px;
+}
+.requiredLabel {
+  position: relative;
+}
+
+.requiredLabel::before {
+  content: "*";
+  color: #000000;
+  position: absolute;
+  top: -1px;
+  left: -10px;
+  font-size: 14px;
+}
+
+.commonFormInput,
+.commonFormTextArea,
+.commonFormSelect {
+  width: 100%;
+  padding: 5px 10px;
+  border-radius: 4px;
+  background: transparent;
+  border: 1px solid #898989;
+  color: #000;
+}
+
+.commonFormInput:hover,
+.commonFormSelect:hover,
+.commonFormTextArea:hover {
+  box-shadow: 0px 0px 3px 0px #9747ff;
+}
+
+.commonFormTextArea {
+  resize: none;
+  min-height: 100px;
+}
+
+.commonFormInput::placeholder,
+.commonFormTextArea::placeholder {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #d9d9d9;
+}
+
+.commonFormSelect {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+}
+
+.addressButton {
+  background-color: #fdd106;
+  min-height: 36px;
+  min-width: 120px;
+  border: none;
+  color: #1d0093;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.addressButton {
+  background-color: #fdd106 !important;
+  color: #1d0093 !important;
+}
+
+.continueBackButton {
+  background-color: #d9d9d9;
+  min-width: 120px;
+  border: none;
+  color: #1d0093;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  padding: 5px 10px;
+}
+.continueBackButton:hover {
+  background-color: #d9d9d9;
+}
+
+.formHeadingline {
+  flex: 1;
+  margin: 0;
+}
+.casePriorityButton {
+  background-color: #d9d9d9;
+  min-height: 36px;
+  min-width: 120px;
+  border: none;
+  color: #1d0093;
+  display: flex;
+  gap: 10px;
+  color: #000;
+  justify-content: center;
+  align-items: center;
+  border-radius: 25px;
+}
+
+.addressButton:hover {
+  background-color: #fdd106;
+  color: #000;
+}
+
+.addOrganizationform {
+  padding-bottom: 30px;
+}
+
+.formListleftside {
+  display: flex;
+  justify-content: space-between;
+}
+
+.formarrowButtons {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.modalFooter {
+  justify-content: space-between;
+  margin-top: 20px;
+  padding-top: 30px;
+}
+
+.modalContent {
+  padding: 35px;
+  border-radius: 30px;
+}
+
+.modalHeading {
+  font-size: 75px;
+  font-family: "Inter";
+  color: #1d0093;
+  line-height: 90px;
+  font-weight: 700;
+}
+.modalCasedeatils {
+  font-size: 20px;
+  font-weight: 700;
+  font-family: "Inter";
+}
+
+.addCasedropdown {
+  background-color: transparent !important;
+  color: #000 !important;
+  border: 0.5px solid #8a8787;
+}
+
+.addCasedropdown:hover {
+  border: 0.5px solid #000 !important;
+}
+
+/*------------------caseHandlingheading----------------------*/
+
+.caseHandlingheading {
+  color: #1d0093;
+  font-family: "Inter";
+  font-weight: 700;
+  font-size: 20px;
+}
+.superCriticalsection {
+  border: 1px solid #cecbcb;
+  border-radius: 5px;
+}
+.superCriticalbox {
+  width: 100%;
+  height: 38px;
+  background-color: #f11100;
+}
+
+.inputBorder {
+  border: none;
+  outline: none;
+}
+.inputBorder:hover {
+  box-shadow: none;
+}
+.inputBorder:focus {
+  box-shadow: none;
+}
+
+.casePercenticon {
+  color: #1d0093;
+  font-weight: 700;
+  padding-right: 10px;
+}
+.Criticalbox {
+  width: 100%;
+  height: 38px;
+  background-color: #d3be00;
+}
+
+.normalCriticalbox {
+  width: 100%;
+  height: 38px;
+  background-color: #1eb47c;
+}
+
+.hourlyRateInput {
+  background: transparent;
+  border: 1px solid #898989;
+  border-left: 0;
+}
+.financialAccordionButton{
+  padding: 8px!important;
+}
+
+.financialAccordion:active{
+  background-color: transparent!important;
+}
+
+.companyName{
+  font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+    color: #1D0093;
+}
+
+.organizationCompanyLogoDiv{
+  height: 200px;
+  width: 200px;
+  overflow: hidden;
+}
+.organizationCompanyLogo{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.financialYearAccordion{
+  position: relative; /* Ensure the accordion's parent is positioned */
+}
+
+.financialAccordionCollapse {
+  position: absolute;
+  z-index: 10;
+  background-color: #fff;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  width: 100%; /* Dynamically adjust width */
+}

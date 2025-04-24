@@ -1,5 +1,5 @@
 {
-  "name": "digicase",
+  "name": "digikase",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,16 +9,30 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@ckeditor/ckeditor5-react": "^7.0.0",
+    "@ckeditor/ckeditor5-build-classic": "^43.3.1",
+    "@ckeditor/ckeditor5-react": "^9.3.1",
+    "@fullcalendar/core": "^6.1.15",
+    "@fullcalendar/daygrid": "^6.1.15",
+    "@fullcalendar/interaction": "^6.1.15",
+    "@fullcalendar/react": "^6.1.15",
+    "apexcharts": "^3.54.1",
     "axios": "^1.7.7",
+    "html2canvas": "^1.4.1",
+    "jspdf": "^3.0.1",
+    "lodash.debounce": "^4.0.8",
     "next": "14.2.14",
     "next-auth": "^4.24.8",
     "react": "^18",
+    "react-apexcharts": "^1.5.0",
     "react-dom": "^18",
+    "react-fast-marquee": "^1.6.5",
     "react-hook-form": "^7.53.0",
     "react-paginate": "^8.2.0",
+    "react-select": "^5.8.3",
+    "react-simple-star-rating": "^5.1.7",
+    "react-slick": "^0.30.2",
     "react-super-responsive-table": "^6.0.0",
     "react-toastify": "^10.0.5",
-    "ckeditor5-custom-build": "file:ckeditor5"
+    "slick-carousel": "^1.8.1"
   }
 }

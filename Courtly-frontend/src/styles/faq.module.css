@@ -1,0 +1,184 @@
+.noticeOrder {
+    padding: 80px 0;
+    display: grid;
+    background-color: #F5FCFF;
+    /* height: 100vh; */
+    align-items: center;
+   
+}
+.noticeOrder h2{
+    margin-bottom: 25px;
+}
+
+.tabsContent {
+    margin-left: 116px;
+}
+
+.noticeOrderTabs {
+    padding-top: 30px;
+}
+.common_blue{
+    text-align: center;
+    font-size: 80px;
+    color: #001D37;
+    opacity: 40%;
+    margin-bottom: 35px;
+}
+
+.noticeOrderTab {
+
+    background-color: #001D37;
+    border-radius: 13px;
+    overflow: hidden;
+
+}
+
+.navPills {
+    background-color: #ffffff;
+   border-radius: 12px;
+}
+
+.navPills button {
+    background-color: transparent;
+    border: none;
+    padding: 10px 30px;
+    transition: all .3s ease-in-out;
+    width: 100%;
+    text-align: justify;
+    color: #001D37;
+    font-weight: 400;
+    font-size: 13px;
+}
+
+.navPills button:hover,
+.navPills button[aria-selected="true"] {
+    color: var(--secondary-color);
+    font-weight: 700;
+}
+
+.navPills button{
+    border-bottom: 1px solid rgba(255, 203, 82, .3);
+}
+
+.navPills button:last-child{
+    border: 0;
+}
+
+.tabDetail {
+
+    background-color: #001D37;
+    padding: 40px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+
+.tabDetail h4 {
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.FaqWrapper
+{
+    padding: 30px;
+  
+}
+.FaqWrapper h3{
+    font-family: Roboto;
+font-size: 16px;
+line-height: 1.3;
+color: #fff;
+font-weight: 700;
+line-height: 23px;
+margin-bottom: 20px;
+
+
+}
+
+.tabDetailsPara{
+    color: #fff;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.faqSecondButn{
+    font-size: 9px!important;
+    color: #fdd208;
+    display: flex;
+    justify-content: space-between;
+}
+
+.faqArrow {
+    font-size: 15px;
+}
+.faqSecondButn::after {
+    display: none;
+}
+
+.faqSecondButn:focus{
+    box-shadow: none!important;
+}
+
+.faqSecondButn:not(.collapsed){
+    color: #fdd208;
+    background: #001D37;
+}
+
+.noticeOrderAccordianDescription {
+    background: #fff!important;
+    color: #001D37!important;
+    font-size: 11px!important;
+}
+
+.noticeOrderAccordianDescription p{
+    color: #001D37!important;
+    font-size: 11px!important;
+}
+
+.faqSecondButn[aria-expanded="true"] .faqArrow{
+    transform: rotate(180deg);
+    transition: .3s ease-in-out;
+  }
+
+
+.faqSecondButn .faqArrow{
+    transition: .3s ease-in-out;
+}
+
+  
+  
+/*-------Media Query----*/
+
+@media (max-width: 1199.98px) {
+    .common_blue{
+        text-align: center;
+        font-size: 30px;
+        color: #001D37;
+        opacity: 10%;
+        margin-bottom: 35px;
+    }
+    
+}
+
+@media (max-width: 991.98px) {
+    .faqSecondButn{
+        font-size: 14px!important;
+        
+    }
+}
+@media (max-width: 450.98px){
+    .common_blue{
+        text-align: center;
+        font-size: 25px;
+        color: #001D37;
+        opacity: 10%;
+        margin-bottom: 35px;
+    }
+
+    .faqSecondButn {
+        font-size: 11px!important;
+    }
+}
+

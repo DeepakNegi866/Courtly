@@ -1,0 +1,205 @@
+.headerLogo{
+  height: 45px;
+}
+.headerLi{
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    box-shadow: none !important;
+}
+.headerButton{
+    background: transparent;
+    border: 1px solid #FDD106;
+    color:#1D0093;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400px;
+    min-height: 36px;
+    min-width: 120px;
+    border-radius: 20px;                                                                                                                                                                                                                                                                                                                                                                                                      
+    position: relative;
+    overflow: hidden;
+}
+.headerButton::before{ 
+  top:0%; 
+  bottom: 0%;
+  left:0%;
+  height: 100%;
+  width: 0%;
+  position: absolute;
+  content: "";
+  background-color: #FDD106;
+  z-index:-1;
+  transition: 0.3s ease-out;
+  
+}
+.headerButton:hover::before{
+  width:100%;
+}
+.headerButton:hover{
+  color:#1D0093;
+}
+.headerNav{
+    gap:10px;
+}
+.home{
+  padding:10px 0px;
+}
+/* button */
+.btn{
+  position: relative;
+  display: inline-block;
+  width: auto; height: auto;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  margin: 0px 25px 15px;
+  min-width: 150px;
+}
+.btn-2::before {
+    background-color: rgb(28, 31, 30);
+    transition: 0.3s ease-out;
+  }
+.btn.hover-slide-right::before {
+    top: 0; bottom: 0; left: 0; 
+    height: 100%; width: 0%;
+  }
+.btn.hover-slide-right:hover::before {
+    width: 100%;
+  }
+  
+  
+/* /footer */
+.homeFooter{
+  background-color: #7755FF;
+}
+.homeFooterHeading{
+font-family: "Wheaton";
+font-size: 28px;
+font-weight: 400;
+line-height: 60px;
+color:#FFFFFF;
+}
+.homePageFooter{
+font-family: "Open Sans";
+font-size: 30px;
+font-weight: 700;
+line-height: 45px;
+color:#ffffff;
+}
+.homePageUl{
+  padding-left:0;
+  padding-bottom: 80px;
+}
+.homePageLi{
+list-style-type: none;
+padding: 7px;
+}
+.homeFeatWrapper{
+font-family: "Inter";
+font-size: 15px;
+font-weight: 400;
+line-height: 24px;
+color:#ffffff;
+text-decoration: none;
+
+}
+.homePageFeatWrapper{
+font-family: "Inter";
+font-size: 15px;
+font-weight: 400;
+line-height: 24px;
+color:#ffffff;
+text-decoration: none;
+margin-Left:10px;
+}
+.homePageFeatures{
+font-family: "Inter";
+font-size: 12px;
+font-weight: 400;
+color:#ffffff;
+text-decoration: none;
+}
+.homeWrapperIcon{
+display:flex;
+ margin-Bottom:10px; 
+ color:#ffffff;
+}
+.homePhoneWrapperIcon{
+margin-Bottom:10px; 
+ color:#ffffff;
+}
+.homePageNumWrapper{
+display: block;
+font-family: "Inter";
+font-size: 15px;
+font-weight: 400;
+line-height: 24px;
+color:#ffffff;
+text-decoration: none;
+margin-left: 36px;
+}
+.homeGraidentHeadingNext{
+height: 3px;
+flex: 1;
+background: linear-gradient(to left, #7755ff00, #ffffff);
+margin-left: 15px;
+}
+.homePageWrapperDigicase{
+display: flex;
+align-items: center;
+padding: 44px 0px ;
+width: 88%;
+}
+.homePageWrapperCopyright{
+  display: flex;
+  gap: 20px;
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 400;
+  color: #ffffff;
+  text-align:right;
+}
+.homePageWrapperCopyleft{
+  display: flex;
+  gap: 20px;
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 400;
+  color: #ffffff;
+  text-align: left;
+}
+.homePageWrapperCopycenter{
+display: flex;
+  gap: 20px;
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 400;
+  color: #ffffff;
+  text-align: center;
+}
+
+.homePageButton{
+background-color: #FDD106;
+min-height: 36px;
+min-width: 120px;
+border: none;
+color: #1D0093; 
+border-radius: 20px;
+align-items: center;
+}
+.homePageButton:hover{
+background-color: #1d0093;
+color:#ffffff;
+}
+.homePageButton svg{
+fill: currentColor; 
+transition: fill 0.3s;
+}
+.homePageHrWrapper{
+color:#ffffff;
+}
+.homePageFlex{
+align-items: center;
+gap:10px;
+}

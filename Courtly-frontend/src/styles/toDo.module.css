@@ -1,0 +1,153 @@
+.alltotalCount {
+    border: 1px solid;
+    border-radius: 50%;
+    background: #1d0093;
+    color: white;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+}
+
+.pendingtotalCount {
+    border: 1px solid;
+    border-radius: 50%;
+    background: #f31805;
+    color: white;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+
+}
+
+.upcomingtotalCount {
+    border: 1px solid;
+    border-radius: 50%;
+    background: #1a09d6;
+    color: white;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+
+}
+
+.completedtotalCount {
+    border: 1px solid;
+    border-radius: 50%;
+    background: #31b713;
+    color: white;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+
+}
+
+.todoList {
+    background-color: #f5f3ba;
+    padding: 25px;
+    
+}
+
+.reminderHeading {
+    color: #FDD106;
+    font-family: "Inter";
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.reminderSecondheading {
+    font-family: "Inter";
+    font-size: 16px;
+
+}
+
+.addButton {
+    background-color: #FDD106;
+    min-height: 36px;
+    min-width: 120px;
+    border: none;
+    color: #1D0093;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.addButton:hover {
+    background-color: #FDD106;
+    color: #000;
+}
+
+.addButton:active {
+    background-color: #FDD106 !important;
+    color: #000;
+}
+
+.submitButton {
+    background-color: #FDD106;
+    min-height: 36px;
+    min-width: 120px;
+    border: none;
+    display: flex;
+    color: #1D0093;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.submitButton:hover {
+    background-color: #FDD106;
+    color: #000;
+}
+
+.submitButton:active {
+    background-color: #FDD106 !important;
+    color: #000;
+}
+
+.markasPvtbutton {
+    margin-top: 60px;
+}
+
+.dateHeading {
+    color: #1D0093;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.markpvtHeading {
+    color: #1D0093;
+}
+
+.dropDownsection{
+    background-color: transparent !important;
+    color: #000 !important;
+    border: 0.5px solid #8a8787; 
+
+}
+
+.dropDownsection:hover{
+    border: 0.5px solid #000 !important;
+}
+
+.todoHeading{
+    font-weight: 600;
+    font-family: "Inter";
+}
+
+.dueDateheading{
+    font-weight: 700;
+    font-family: "Inter";
+}
+
+.todoDescription{
+    font-weight: 400;
+    font-family: "Inter";
+}
+
+
+.commonButton:disabled {
+    background-color: #FDD106!important;
+    opacity: 5%!important; 
+    cursor: not-allowed;
+  }

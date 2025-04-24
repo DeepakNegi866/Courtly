@@ -1,0 +1,151 @@
+.modalTitle {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    color: #1D0093;
+    font-size: 25px;
+}
+
+.modalHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 18px;
+}
+
+.modalButtn {
+    background: #1D0093;
+    color: #fff;
+
+}
+
+.modalButtn:hover {
+    background: #1D0093;
+    color: #fff;
+}
+
+.modalFormWrapper label {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: #000000;
+    font-size: 16px;
+}
+
+.modalFormSelect {
+    border: 1px solid #898989;
+
+}
+
+
+
+.modalInput {
+    border: 1px solid #898989;
+}
+
+.modalButtnWrapper {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: end;
+}
+
+
+.modalSubmitButtn {
+    background-color: #FDD106;
+    border: none;
+    color: #1D0093;
+    border-radius: 30px;
+    padding: 10px 30px;
+}
+
+.modalSubmitButtn:hover {
+    background-color: #FDD106;
+    color: #1D0093;
+}
+
+
+.Editorsection {
+    margin-bottom: 20px;
+}
+
+.modalTabs {
+    padding-left: 28px;
+}
+
+.genericRadioButton {
+    display: flex;
+    gap: 20px;
+}
+
+.tabsWrapper :global(.nav-item .nav-link) {
+    width: 100%;
+    border: 1px solid;
+    padding: 8px;
+}
+
+.tabsWrapper :global(.nav.nav-pills) {
+    gap: 5px;
+}
+
+.tabsWrapper :global(.tab-content .tab-pane) {
+    border: 0;
+}
+
+.tabsWrapper :global(.nav-item .nav-link) {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    padding: 10px;
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: #1D0093;
+}
+
+.tabsWrapper :global(.nav-item .nav-link.active) {
+    background-color: #1D0093;
+    color: #FFFFFF;
+    position: relative;
+    z-index: 2;
+}
+
+.dateToline {
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    position: relative;
+    top: 33px;
+
+}
+
+.dueDateheading {
+    color: #000000;
+}
+
+.modalcheckBox {
+    display: flex;
+    gap: 15px;
+    color: #000000;
+    font-weight: 400;
+}
+
+.modalcancelButton {
+    background-color: #D9D9D9;
+    min-width: 120px;
+    border: none;
+    color: #1D0093;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    padding: 10px 10px;
+
+}
+
+
